@@ -1,0 +1,63 @@
+{
+  "name": "studentico-ui",
+  "version": "1.0.3",
+  "description": "UI components for the Studentico webapp",
+  "main": "lib/index.js",
+  "jsnext:main": "es/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component --copy-files",
+    "clean": "nwb clean-module && npm clean-demo",
+    "deploy": "gh-pages -d demo/dist",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test",
+    "test:coverage": "nwb test --coverage",
+    "test:watch": "nwb test --server"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "classnames": "^2.2.5",
+    "normalize.css": "^5.0.0",
+    "react-redux": "^4.4.6",
+    "react-router": "^2.8.1",
+    "react-router-redux": "^4.0.7",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^1.0.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "peerDependencies": {
+    "react": "15.x"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.14",
+    "enzyme": "^2.4.1",
+    "gh-pages": "^0.11.0",
+    "mocha-lcov-reporter": "^1.2.0",
+    "nwb": "0.13.3",
+    "phantomjs-prebuilt": "^2.1.13",
+    "react": "^15.3.2",
+    "react-addons-test-utils": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-scripts": "0.6.0"
+  },
+  "author": "Jan-Gerrit Harms",
+  "homepage": "http://studentico.nl",
+  "tags": [
+    "react",
+    "ui-library"
+  ],
+  "keywords": [
+    "react-component",
+    "react",
+    "ui-library",
+    "ui",
+    "studentico"
+  ]
+}

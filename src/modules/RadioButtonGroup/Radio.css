@@ -1,0 +1,23 @@
+.Radio {
+  border: 2px solid #4a4a4a;
+  margin: 0;
+}
+
+.RadioGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RadioLabel {
+  color: #4a4a4a;
+  display: inline;
+  margin-left: 5px;
+}
+
+.RadioContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
